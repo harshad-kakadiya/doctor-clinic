@@ -5,7 +5,6 @@ import { defineConfig, type ServerOptions } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import { VitePWA } from 'vite-plugin-pwa'
-
 const certFile = path.resolve(import.meta.dirname, '192.168.1.90+1.pem')
 const keyFile = path.resolve(import.meta.dirname, '192.168.1.90+1-key.pem')
 
